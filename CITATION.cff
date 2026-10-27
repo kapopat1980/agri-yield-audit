@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or its outputs, please cite the associated manuscript (draft)."
+title: "Auditing multisource crop-yield prediction on two public Kaggle datasets: code and results"
+type: software
+authors:
+  - family-names: "[Family name]"
+    given-names: "[Given name]"
+    affiliation: "[Affiliation]"
+date-released: "2026-10-23"
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/<your-account>/<repo-name>"
+# doi: "[add Zenodo DOI after the first release]"
+keywords:
+  - crop yield prediction
+  - negative results
+  - data leakage
+  - conformal prediction
+  - SHAP
+  - precision agriculture

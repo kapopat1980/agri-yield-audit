@@ -1,0 +1,42 @@
+{
+  "dataset": "D1",
+  "source": "/kaggle/input/competitions/agriyield-2025",
+  "raw_rows": 10000,
+  "rows_used": 10000,
+  "target": "yield",
+  "id": "field_id",
+  "schema": {
+    "target": "yield",
+    "id": "field_id",
+    "field": "field_id",
+    "date": null,
+    "year": null,
+    "lat": null,
+    "lon": null,
+    "region": null,
+    "crop": null
+  },
+  "exact_duplicates": 0,
+  "target_stats": {
+    "mean": 4251.9764,
+    "sd": 436.5112818897583,
+    "min": 3500.2,
+    "max": 5000.0,
+    "skew": -0.010733510612578228,
+    "q01": 3515.196,
+    "q99": 4982.802000000001,
+    "n_zero": 0,
+    "n_negative": 0
+  },
+  "missing_top": {},
+  "field_overlap_train_test": 0.0,
+  "obs_per_field": {
+    "n_fields": 10000,
+    "median": 1.0,
+    "max": 1
+  },
+  "suspected_leakage_columns_removed": {},
+  "constant_columns_removed": [],
+  "audit_checklist_hint": "If target is constant within field and fields repeat, S1 random splits are leaky by construction; report S1 separately (H2).",
+  "n_temporal_summary_features": 0
+}

@@ -1,0 +1,54 @@
+{
+  "D1": {
+    "Gate1_audit": [
+      "PASS",
+      "no leakage flags; confirm units and target semantics manually"
+    ],
+    "Gate2_leakage_safe_split": [
+      "PASS",
+      "available: ['S2_group']"
+    ],
+    "Gate3_multimodal_gain": [
+      "FAIL",
+      "XGBoost: E1 \u2192 E4: significant improvement (95% CI < 0) in 0/2 shift-aware splits; mean gain 0.0% \u2192 do NOT force the multimodal story; pivot to uncertainty / shift analysis (plan \u00a725)"
+    ],
+    "Gate6_survives_shift": [
+      "FAIL",
+      "E-level gain has the same sign in 0/1 temporal/spatial/OOD splits"
+    ],
+    "Gate4_uncertainty": [
+      "REVIEW",
+      "split S2_group: split-conformal coverage within \u00b10.05 of nominal=True; best adaptive width\u2013error Spearman=-0.00"
+    ],
+    "Gate5_agronomic_plausibility": [
+      "MANUAL",
+      "Inspect Table 8 / Fig 8-9: are the top drivers (rainfall/temperature/moisture/vegetation indices/N) agronomically sensible and signed correctly?"
+    ]
+  },
+  "D2": {
+    "Gate1_audit": [
+      "PASS",
+      "no leakage flags; confirm units and target semantics manually"
+    ],
+    "Gate2_leakage_safe_split": [
+      "PASS",
+      "available: ['S2_group', 'S4_spatial']"
+    ],
+    "Gate3_multimodal_gain": [
+      "FAIL",
+      "XGBoost: E1 \u2192 E4: significant improvement (95% CI < 0) in 1/3 shift-aware splits; mean gain 0.0% \u2192 do NOT force the multimodal story; pivot to uncertainty / shift analysis (plan \u00a725)"
+    ],
+    "Gate6_survives_shift": [
+      "FAIL",
+      "E-level gain has the same sign in 0/2 temporal/spatial/OOD splits"
+    ],
+    "Gate4_uncertainty": [
+      "REVIEW",
+      "split S2_group: split-conformal coverage within \u00b10.05 of nominal=True; best adaptive width\u2013error Spearman=-0.00"
+    ],
+    "Gate5_agronomic_plausibility": [
+      "MANUAL",
+      "Inspect Table 8 / Fig 8-9: are the top drivers (rainfall/temperature/moisture/vegetation indices/N) agronomically sensible and signed correctly?"
+    ]
+  }
+}

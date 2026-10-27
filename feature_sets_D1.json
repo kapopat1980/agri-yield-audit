@@ -1,0 +1,41 @@
+{
+  "E1": [
+    "temperature",
+    "humidity",
+    "rainfall"
+  ],
+  "E2": [
+    "soil_ph",
+    "organic_matter",
+    "sand_pct",
+    "temperature",
+    "humidity",
+    "rainfall"
+  ],
+  "E3": [
+    "soil_ph",
+    "organic_matter",
+    "sand_pct",
+    "temperature",
+    "humidity",
+    "rainfall",
+    "ndvi"
+  ],
+  "E4": [
+    "soil_ph",
+    "organic_matter",
+    "sand_pct",
+    "temperature",
+    "humidity",
+    "rainfall",
+    "ndvi",
+    "rainfall__anom",
+    "temperature__anom",
+    "ndvi__anom",
+    "temperature__heat",
+    "x_temp_x_hum",
+    "x_rs_x_rain",
+    "stress_idx",
+    "dry_hot"
+  ]
+}

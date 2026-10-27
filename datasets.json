@@ -1,0 +1,15 @@
+{
+  "access_date": "2026-10-23",
+  "sources": {
+    "D1": "/kaggle/input/competitions/agriyield-2025",
+    "D2": "/kaggle/working/D2_wheat",
+    "D3": "/kaggle/input/datasets/abhinand05/crop-production-in-india/crop_production.csv",
+    "D4": "/kaggle/input/datasets/siddharthss/crop-recommendation-dataset/Crop_recommendation.csv"
+  },
+  "kaggle_ids": {
+    "D1": "competitions/agriyield-2025",
+    "D2": "shaikasif89/wheat-yeild",
+    "D3": "abhinand05/crop-production-in-india",
+    "D4": "siddharthss/crop-recommendation-dataset"
+  }
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# raw data and large run artefacts are not tracked
+data/*
+!data/README.md
+results/ckpt/
+catboost_info/
+*.zip
+.DS_Store

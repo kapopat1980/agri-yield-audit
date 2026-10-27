@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "profile": "full",
+  "input_root": "/kaggle/input",
+  "out_dir": "/kaggle/working/agri_outputs",
+  "datasets": [
+    "D1",
+    "D2"
+  ],
+  "d2_source": "wheat",
+  "paths": {
+    "D1": null,
+    "D2": null,
+    "D3": null,
+    "D4": null
+  },
+  "manual_blocks": {
+    "D1": {},
+    "D2": {
+      "visibility": "weather"
+    }
+  },
+  "target_override": {
+    "D1": null,
+    "D2": "Yield"
+  },
+  "use_coords_as_features": false,
+  "unassigned_to": "soil",
+  "drop_exact_duplicates": true,
+  "leak_corr_threshold": 0.995,
+  "split_fracs": {
+    "val": 0.1,
+    "cal": 0.15
+  },
+  "ood_frac": 0.2,
+  "alpha": 0.1,
+  "time_budget_h": 7.0,
+  "finalize_reserve_h": 0.6,
+  "run_mlp": true,
+  "run_elasticnet": true,
+  "robust_splits": [
+    "S2_group"
+  ],
+  "robust_models": [
+    "Ridge",
+    "RF",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost",
+    "MLP",
+    "Ensemble"
+  ],
+  "shap_splits": [
+    "S1_random",
+    "S2_group",
+    "S3_temporal",
+    "S5_ood"
+  ],
+  "show_figs": true,
+  "xgb_device": "cuda",
+  "catboost_task": "GPU",
+  "n_est": 2000,
+  "rf_est": 150,
+  "rf_max_rows": 120000,
+  "trials": 15,
+  "n_folds": 5,
+  "t_folds": 3,
+  "rob_reps": 2,
+  "mlp_epochs": 80,
+  "shap_rows": 2000,
+  "inter_rows": 400,
+  "perm_rows": 1500,
+  "spatial_k": 10,
+  "boot": 1000,
+  "max_rows": null,
+  "cqr_est": 400
+}

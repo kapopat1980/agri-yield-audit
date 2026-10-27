@@ -1,0 +1,8 @@
+feature,block
+soil_ph,soil
+organic_matter,soil
+sand_pct,soil
+temperature,weather
+humidity,weather
+rainfall,weather
+ndvi,remote

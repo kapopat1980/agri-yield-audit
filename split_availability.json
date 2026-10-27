@@ -1,0 +1,9 @@
+{
+  "D1": {
+    "S3_temporal": "unavailable: no date/year column",
+    "S4_spatial": "unavailable: no coordinates / region column"
+  },
+  "D2": {
+    "S3_temporal": "unavailable: no date/year column"
+  }
+}

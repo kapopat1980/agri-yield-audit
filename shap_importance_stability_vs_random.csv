@@ -1,0 +1,5 @@
+dataset,split,spearman_rank_vs_random,top10_overlap
+D1,S2_group,0.9678571428571429,10
+D1,S5_ood,0.7667563383448659,9
+D2,S2_group,0.9395109395109394,8
+D2,S5_ood,0.8061776061776061,5

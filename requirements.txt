@@ -1,0 +1,13 @@
+# Versions used for the reported Kaggle run (Python 3.13.15). Newer versions will usually work but may change numbers slightly.
+numpy==2.1.3
+pandas==2.3.3
+scipy
+matplotlib
+scikit-learn==1.6.1
+xgboost==3.4.1
+lightgbm==4.6.0
+catboost==1.2.10
+optuna==5.0.0
+shap==0.52.0
+torch==2.11.0      # optional: only for the MLP; the notebook skips the MLP if torch is missing
+nbformat           # optional: only needed to rebuild the notebook from the script

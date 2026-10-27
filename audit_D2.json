@@ -1,0 +1,41 @@
+{
+  "dataset": "D2",
+  "source": "/kaggle/working/D2_wheat",
+  "raw_rows": 200000,
+  "rows_used": 200000,
+  "target": "Yield",
+  "id": null,
+  "schema": {
+    "target": "Yield",
+    "id": null,
+    "field": null,
+    "date": null,
+    "year": null,
+    "lat": "Latitude",
+    "lon": "Longitude",
+    "region": null,
+    "crop": null
+  },
+  "exact_duplicates": 0,
+  "target_stats": {
+    "mean": 60.12072239460331,
+    "sd": 23.083120564147396,
+    "min": 20.000568805098546,
+    "max": 99.99944380623197,
+    "skew": -0.005176996785139005,
+    "q01": 20.800866968276114,
+    "q99": 99.17862726808849,
+    "n_zero": 0,
+    "n_negative": 0
+  },
+  "missing_top": {},
+  "obs_per_field": {
+    "n_fields": 200000,
+    "median": 1.0,
+    "max": 1
+  },
+  "suspected_leakage_columns_removed": {},
+  "constant_columns_removed": [],
+  "audit_checklist_hint": "If target is constant within field and fields repeat, S1 random splits are leaky by construction; report S1 separately (H2).",
+  "n_temporal_summary_features": 0
+}
